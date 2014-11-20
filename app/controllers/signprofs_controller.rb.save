@@ -42,7 +42,7 @@ class SignprofsController < ApplicationController
   def update
     respond_to do |format|
       if @signprof.update(signprof_params)
-        format.html { redirect_to @signprof, notice: 'Profile successfully updated.' }
+        format.html { redirect_to @signprof, notic was successfully updated.' }
         format.json { render :show, status: :ok, location: @signprof }
       else
         format.html { render :edit }
@@ -56,7 +56,7 @@ class SignprofsController < ApplicationController
   def destroy
     @signprof.destroy
     respond_to do |format|
-      format.html { redirect_to signprofs_url, notice: 'Profile successfully destroyed.' }
+      format.html { redirect_to signprofs_url, notice: 'Signprof was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
