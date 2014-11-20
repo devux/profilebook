@@ -1,0 +1,39 @@
+<center>
+  <%= form_for(@signprof) do |f| %>
+  <% if @signprof.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@signprof.errors.count, "error") %> prohibited this signprof from being saved:</h2>
+
+      <ul>
+      <% @signprof.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :address %><br>
+    <%= f.text_area :address %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :phone %><br>
+    <%= f.text_field :phone %>
+  </div>
+  <div class="field">
+    <%= f.label :qualification %><br>
+    <%= f.text_area :qualification %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+</center>

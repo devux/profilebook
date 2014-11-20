@@ -1,0 +1,30 @@
+<center><p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @signprof.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @signprof.address %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @signprof.email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @signprof.phone %>
+</p>
+
+<p>
+  <strong>Qualification:</strong>
+  <%= @signprof.qualification %>
+</p>
+
+<%= link_to 'Edit', edit_signprof_path(@signprof) %> |
+<%= link_to 'Back', signprofs_path %>
+</center>

@@ -1,0 +1,35 @@
+<center><h1>PROFILE BOOK</h1></centre>
+
+</br>
+</br>
+</br>
+</br>
+<table>
+  <thead>
+    <tr>
+      <th><pre>Name</pre> </th>
+      <th><pre>  Phone</pre></th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @signprofs.each do |signprof| %>
+      <tr>
+        <td><pre> <%= signprof.name %></pre></td>
+        <td><pre><%= signprof.phone %></pre></td>
+        <td><%= link_to 'Show profile', signprof %></td>
+        <td><%= link_to 'Modify', edit_signprof_path(signprof) %></td>
+        <td><%= link_to 'Destroy profile', signprof, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Create your profile', new_signprof_path %>
+<pre> Hello friends this is sample rails app to show demo for beginners
+      
+ </pre>    
+
