@@ -1,28 +1,37 @@
-== README
+Hello friends!
+	Im making this simple app to demonstrate for rails beginners
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Here the steps how you can run this app on your own system 
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+step 2:clone the app from github 
+
+git clone https://github.com/devakdo/profilebook.git
+
+step 3: move to the directory
+
+cd profilebook
+
+step 4: install all gems which is in the Gemfile
+
+bundle install
+
+step 5: migrate the database which you made.
+
+rake db:migrate
+
+step 6: run the rails server
+
+rails s
+
+"here s stands for server you can also use the command as server"
+
+step 7: open your browser in your system type the following URL and give enter
+
+
+http://localhost:3000
+
+
+      "Then you will see profilebook app running on your browser "
+ here the github link                  https://github.com/devakdo/profilebook
+ here the blog link how i made this
