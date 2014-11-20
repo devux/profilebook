@@ -10,7 +10,7 @@ step 1: Do ensure that rails is installed on your system
 
         https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-ubuntu-12-04-lts-precise-pangolin-with-rvm
 
-        after installion completed you can follow the next step
+        after installtion completed you can follow the next step
 
 step 2:clone the app from github 
 
