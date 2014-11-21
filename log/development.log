@@ -10913,3 +10913,82 @@ Started GET "/assets/signprofs.js?body=1" for 127.0.0.1 at 2014-11-20 16:15:40 +
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-20 16:15:40 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-21 22:32:12 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SignprofsController#index as HTML
+  [1m[35mSignprof Load (0.6ms)[0m  SELECT "signprofs".* FROM "signprofs"
+  Rendered signprofs/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 521ms (Views: 497.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-21 22:32:13 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:13 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:13 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:13 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:13 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:13 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:13 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:14 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:14 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:14 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:14 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:14 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:14 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:14 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:14 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:14 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:14 +0530
+
+
+Started GET "/assets/signprofs.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:14 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-21 22:32:14 +0530
+
+
+Started GET "/signprofs/new" for 127.0.0.1 at 2014-11-21 22:32:16 +0530
+Processing by SignprofsController#new as HTML
+  Rendered signprofs/_form.html.erb (67.8ms)
+  Rendered signprofs/new.html.erb within layouts/application (84.9ms)
+Completed 200 OK in 329ms (Views: 326.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/signprofs" for 127.0.0.1 at 2014-11-21 22:32:20 +0530
+Processing by SignprofsController#index as HTML
+  [1m[36mSignprof Load (0.6ms)[0m  [1mSELECT "signprofs".* FROM "signprofs"[0m
+  Rendered signprofs/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 229ms (Views: 227.3ms | ActiveRecord: 0.6ms)
