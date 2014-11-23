@@ -46,5 +46,7 @@ http://localhost:3000
  here the github link  https://github.com/devakdo/profilebook
 
 
- here the blog link how i made this
+ here the blog link how i made this 
+ 
+ http://devadevmj.wordpress.com/2014/11/23/how-to-create-simple-rails-app
 
